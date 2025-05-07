@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
       const message = document.getElementById('message').value;
       
-      emailjs.send('service_jcgs72w', 'template_ez874z8', {
+      emailjs.send('service_vue1kj6', 'template_8v290w9', {
         message: message
       })
       .then(function(response) {
